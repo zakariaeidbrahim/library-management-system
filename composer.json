@@ -1,0 +1,21 @@
+{
+    "name": "rayf/library-management-system",
+    "description": "A simple Library Management System built with PHP, HTML, JS, Bootstrap, and Tailwind CSS.",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Your Name",
+            "email": "you@example.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.0",
+        "monolog/monolog": "^3.9"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    }
+}
